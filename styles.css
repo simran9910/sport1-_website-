@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+.container {
+    max-width: 600px;
+    margin: 55px auto;
+    padding: 20px;
+    background-color: rgb(240, 137, 100) ;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.containter h2,h4{
+    padding:0px;
+    color: hsl(180, 100%, 97%);
+}
+h4{
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+button[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid hsl(0, 7%, 8%);
+    border-radius: 8px;
+    outline: none;
+}
+
+select {
+    appearance: none;
+}
+
+button[type="submit"] {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:hsl(16, 100%, 50%);
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-group #es{
+    margin: 2px 2px;
+}
+.form-group #ed{
+    margin: 2px 2px;
+}
+.img-eve{
+    display: flex;
+}
+.event-img{
+    height: 400px;
+    width: 500px;
+}
+
+
+.textarea_control{
+    grid-column-end: span 2 ;
+
+}
+
+.textarea_control textarea{
+    width: 100%;
+
+}
